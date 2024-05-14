@@ -1,7 +1,7 @@
 import pymongo # type: ignore
 from bson import ObjectId
 
-client=pymongo.MongoClient("mongodb+srv://rathore:rathore7302@projects.2bn8u5r.mongodb.net/", tlsAllowInvalidCertificates=True)
+client=pymongo.MongoClient("mongodb+srv://<username>:<password>@projects.2bn8u5r.mongodb.net/", tlsAllowInvalidCertificates=True)
 
 # print(client)
 db=client['ytManager']
